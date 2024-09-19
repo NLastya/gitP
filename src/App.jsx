@@ -17,13 +17,13 @@ export default function App() {
   return (
     <AuthProvider>
       <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="/parks" element={<Parks />} />
-        <Route path="/creature/:id" element={<Creature />} />
-        <Route path="/animals" element={<Animals />} />
-        <Route path="/plants" element={<Plants />} />
-        <Route path="/mushrooms" element={<Mushroom />} />
-        <Route path="/park/:id" element={<ParkPage />} />
+        <Route path="/gitP/" element={<MainPage />} />
+        <Route path="/gitP/parks" element={<Parks />} />
+        <Route path="/gitP/creature/:id" element={<Creature />} />
+        <Route path="/gitP/animals" element={<Animals />} />
+        <Route path="/gitP/plants" element={<Plants />} />
+        <Route path="/gitP/mushrooms" element={<Mushroom />} />
+        <Route path="/gitP/park/:id" element={<ParkPage />} />
         {/* <ProtectedRoute path="/panel" element={<AdminPage />} /> */}
         <Route path="/panel" element={<AdminPage />} />
 
